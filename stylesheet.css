@@ -22,3 +22,7 @@ body {
 .sideads {
     float: left;
 }
+
+.rightads {
+    float: right;
+}
