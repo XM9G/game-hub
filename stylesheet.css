@@ -52,3 +52,30 @@ body {
 a { color: inherit; } 
 
 
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 20%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+ 
+    width: 20%;
+    display: none;
+    overflow: hidden;
+    background-color: #383838;
+    text-align: center;
+    padding-left: 45%;
+
+  }
