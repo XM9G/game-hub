@@ -35,8 +35,16 @@
 
 
 <body>
-    <a href="help.html"><div class="banner"><h3 >Help Support Game Hub</h3></div></a>
-	
+    <a href="help.html"><div class="banner" id="banner"><h3>Help Support Game Hub</h3></div></a>
+    <div class="close"><button onclick="closehelp()" id="close">X</button></div>
+    <script>
+        function closehelp() {
+         document.getElementById("banner").style.display = "none";
+         document.getElementById("close").style.display = "none";
+         console.log("Closed thing");
+}
+    </script>        
+
 	<!-- <button onclick="theme()">Switch Theme</button>
 	<script>function theme() {
         var element =document.body;
