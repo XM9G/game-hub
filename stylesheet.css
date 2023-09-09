@@ -3,7 +3,11 @@
 }
 
 .title {
-    text-align: center;
+    text-align: right;
+}
+
+.headingtext {
+    background-color: rgb(66, 66, 66);
 }
 
 .game {
@@ -16,7 +20,7 @@
 
 body {
     background-color: black;
-    color:white;
+    color: white;
 }
 
 .light-mode {
@@ -41,7 +45,6 @@ body {
     border-radius: 5px;
     opacity: 0.9;
     text-decoration: none;
-
 }
 
 .banner:hover {
@@ -49,8 +52,9 @@ body {
     text-decoration: none;
 }
 
-a { color: inherit; } 
-
+a {
+    color: inherit;
+}
 
 .collapsible {
     background-color: #777;
@@ -62,32 +66,28 @@ a { color: inherit; }
     text-align: center;
     outline: none;
     font-size: 15px;
+}
 
-  }
-  
-  .active, .collapsible:hover {
+.active,
+.collapsible:hover {
     background-color: #555;
-  }
-  
-  .content {
- 
+}
+
+.content {
     width: 20%;
     display: none;
     overflow: hidden;
     background-color: #383838;
     text-align: center;
     padding-left: 45%;
+}
 
-  }
-
-  .close {
+.close {
     text-align: right;
- 
     padding: 0.5%;
     position: sticky;
     top: 0;
     border-radius: 5px;
     opacity: 0.9;
     text-decoration: none;
-
-  }
+}
