@@ -1,0 +1,109 @@
+.topads {
+    display: none;
+}
+
+.title {
+    text-align: right;
+}
+
+.title > img {
+    display: none;
+}
+
+.headingtext {
+    background-color: rgb(66, 66, 66);
+    font-size:x-small;
+}
+
+
+.game {
+    text-align: center;
+}
+
+.bottomads {
+    display: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    
+}
+
+.light-mode {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.sideads {
+    display: none;
+}
+
+.rightads {
+    display: none;
+}
+
+.banner {
+    display: none;
+    
+}
+
+.banner2 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5%;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+    opacity: 0.9;
+    text-decoration: none;
+    color: red;
+    
+}
+
+.banner:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 20%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    width: 20%;
+    display: none;
+    overflow: hidden;
+    background-color: #383838;
+    text-align: center;
+    padding-left: 45%;
+}
+
+.close {
+    text-align: right;
+    padding: 0.5%;
+    position: sticky;
+    top: 0;
+    border-radius: 5px;
+    opacity: 0.9;
+    text-decoration: none;
+
+    display: none;
+}

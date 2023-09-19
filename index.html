@@ -3,10 +3,12 @@
 <head>
 
     <title>Game Hub</title>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="buttons.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="mobile.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="buttonsmobile.css">
+
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 500px)" href="buttons.css">
     <link rel="stylesheet" type="text/css" href="fonts.css">
-    <link rel="stylesheet" type="text/css" href="THEMESWICTHER.CSS">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-58N04FWW4W"></script>
@@ -43,7 +45,11 @@
         <div class="banner" id="banner">
             <h3>Help Support Game Hub</h3>
         </div>
+        
     </a>
+    <div class="banner2" id="banner2">
+        <h3>Many games may not function on a mobile device!</h3>
+    </div>
     <div class="close"><button onclick="closehelp()" id="close">X</button></div>
     <script>
         function closehelp() {
