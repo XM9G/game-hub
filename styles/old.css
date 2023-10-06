@@ -1,0 +1,40 @@
+.topads {
+    display: none;
+}
+
+.title {
+    text-align: right;
+}
+
+.headingtext {
+    background-color: rgb(66, 66, 66);
+}
+
+.game {
+    text-align: center;
+}
+
+.bottomads {
+    display: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.sideads {
+    display: none;
+}
+
+.rightads {
+    display: none;
+}
+
+a {
+    color: inherit;
+}
+
+* {
+    font-family: sans-serif;
+}
