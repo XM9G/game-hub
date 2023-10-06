@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: black;
+    color: lightgray;
+    font-family: sans-serif;
+}
+
+.title {
+    background-image: url("/assets/background.jpg");
+    height: 5%;
+    background-size: cover;
+    width: 50%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 70%;
+
+}
+
+.title h1 {
+    text-align: center;
+    padding: 1%;
+    text-shadow: 5px 5px #292c36;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    word-wrap: break-word;
+}
+
+.title a {
+    text-align: center;
+    padding: 0%;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+iframe {
+    border: none;
+}
+
+.game {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.footer {
+    color: lightgrey;
+    font-family: sans-serif;
+    background-color: rgb(22, 22, 22);
+    position: bottom;
+}
