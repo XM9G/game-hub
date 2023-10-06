@@ -1,97 +1,31 @@
-.topads {
-    text-align: center;
+* {margin:0;padding:0}
+
+
+body {
+    background-color: black
 }
 
 .title {
-    text-align: right;
+    background-image: url("https://media.discordapp.net/attachments/1013753199963942913/1159741872495939624/image.png?ex=653220c9&is=651fabc9&hm=a0ba055100092dd19c0424934f423a13b78584162895e06bc4bec87c9d0f1adf&=&width=790&height=702");
+    height: 5%;
+    background-size: cover;
+    width: 50%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-width: 70%;
+    
 }
 
-.headingtext {
-    background-color: rgb(66, 66, 66);
-}
-
-.game {
+.title h1 {
     text-align: center;
-}
-
-.bottomads {
-    text-align: center;
-}
-
-body {
-    background-color: black;
+    padding: 1%;
+    text-shadow: 5px 5px #292c36;
+    font-size: 50px;
     color: white;
-}
+    font-family: sans-serif;
+    word-wrap: break-word;
 
-.light-mode {
-    background-color: white;
-    color: rgb(0, 0, 0);
-}
-
-.sideads {
-    float: left;
-}
-
-.rightads {
-    float: right;
-}
-
-.banner {
-    text-align: center;
-    background-color: rgb(92, 92, 92);
-    padding: 0.5%;
-    position: sticky;
-    top: 0;
-    border-radius: 5px;
-    opacity: 0.9;
-    text-decoration: none;
-}
-
-.banner2 {
-    display: none;
-}
-
-.banner:hover {
-    opacity: 1;
-    text-decoration: none;
-}
-
-a {
-    color: inherit;
-}
-
-.collapsible {
-    background-color: #777;
-    color: white;
-    cursor: pointer;
-    padding: 18px;
-    width: 20%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-}
-
-.active,
-.collapsible:hover {
-    background-color: #555;
-}
-
-.content {
-    width: 20%;
-    display: none;
-    overflow: hidden;
-    background-color: #383838;
-    text-align: center;
-    padding-left: 45%;
-}
-
-.close {
-    text-align: right;
-    padding: 0.5%;
-    position: sticky;
-    top: 0;
-    border-radius: 5px;
-    opacity: 0.9;
-    text-decoration: none;
 }
