@@ -26,7 +26,6 @@ body {
 .title h1 {
     text-align: center;
     padding: 1%;
-    text-shadow: 5px 5px #292c36;
     font-size: 50px;
     color: white;
     font-family: sans-serif;
@@ -48,7 +47,7 @@ body {
 
 .list iframe {
     border: none;
-    height: 3000px;
+    height: 1800px;
     width: auto;
     margin-left: 40%;
     margin-right: 40%;
