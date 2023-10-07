@@ -1,4 +1,6 @@
-if (/Mobi|Android/i.test(navigator.userAgent)) {
-    // User is on a mobile device
-    alert("Warning: The website and games may not work properly on your device.");
-}
+// Check if the user is on a mobile device
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    alert("Warning: The games may not work properly on mobile.")
+    // Redirect to the mobile page
+    window.location.href = '/games';
+  }
