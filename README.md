@@ -1,7 +1,7 @@
 # game-hub
 ## New website design out now!!
 
-[Github Pages](https://xm9g.github.io/game-hub/)
+[xm9g.xyz](https://games.xm9g.xyz/)
 
 [Netlify](https://unblocked-games-hub.netlify.app/)
 
