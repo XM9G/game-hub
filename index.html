@@ -43,10 +43,18 @@
   <meta name="description"
     content="Game Hub: Your go-to source for unblocked games of all genres. Enjoy a seamless and secure gaming experience on this user-friendly platform.">
 
+<script>navigator.serviceWorker.register("service-worker.js")</script> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
+
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
+  
   <script src="/js/mobile.js"></script>
 
   <div class="title">
