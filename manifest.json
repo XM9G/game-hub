@@ -36,5 +36,16 @@
   "lang": "en",
   "display_override": [
     "window-controls-overlay"
-  ]
+  ],
+  "shortcuts": [
+    {
+      "name": "All Games",
+      "url": "https://unblocked-games-hub.netlify.app/games/index.html",
+      "description": ""
+    }
+  ],
+  "categories": [
+    "games"
+  ],
+  "dir": "ltr"
 }
